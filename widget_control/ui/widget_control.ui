@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WidgetControl</class>
+ <widget class="QWidget" name="WidgetControl">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>216</width>
+    <height>312</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>216</width>
+    <height>312</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_10">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QPushButton" name="pushButton_add">
+         <property name="minimumSize">
+          <size>
+           <width>21</width>
+           <height>51</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>21</width>
+           <height>51</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>:/control_img/add_normal.png</normaloff>:/control_img/add_normal.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_reduce">
+         <property name="minimumSize">
+          <size>
+           <width>21</width>
+           <height>51</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>21</width>
+           <height>51</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>:/control_img/reduce_normal.png</normaloff>:/control_img/reduce_normal.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="1" column="1">
+        <widget class="QPushButton" name="pushButton_stop">
+         <property name="minimumSize">
+          <size>
+           <width>51</width>
+           <height>51</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton#pushButton_stop{
+	background-repeat:none;
+	background-image:url(:/control_img/stop_normal.png);
+}
+QPushButton#pushButton_stop:pressed{
+	border-style: inset;
+	background-repeat:none;
+	background-image:url(:/control_img/stop_pressed.png);
+}
+QPushButton#pushButton_stop:hover{
+	background-repeat:none;
+	background-image:url(:/control_img/stop_pressed.png);
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="pushButton_up">
+         <property name="minimumSize">
+          <size>
+           <width>51</width>
+           <height>51</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton#pushButton_up{
+	background-repeat:none;
+	background-image:url(:/control_img/up_normal.png);
+}
+QPushButton#pushButton_up:pressed{
+	border-style: inset;
+	background-repeat:none;
+	background-image:url(:/control_img/up_pressed.png);
+}
+QPushButton#pushButton_up:hover{
+	background-repeat:none;
+	background-image:url(:/control_img/up_pressed.png);
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="pushButton_left">
+         <property name="minimumSize">
+          <size>
+           <width>51</width>
+           <height>51</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton#pushButton_left{
+	background-repeat:none;
+	background-image:url(:/control_img/left_normal.png);
+}
+QPushButton#pushButton_left:pressed{
+	border-style: inset;
+	background-repeat:none;
+	background-image:url(:/control_img/left_pressed.png);
+}
+QPushButton#pushButton_left:hover{
+	background-repeat:none;
+	background-image:url(:/control_img/left_pressed.png);
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QPushButton" name="pushButton_down">
+         <property name="minimumSize">
+          <size>
+           <width>51</width>
+           <height>51</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton#pushButton_down{
+	background-repeat:none;
+	background-image:url(:/control_img/down_normal.png);
+}
+QPushButton#pushButton_down:pressed{
+	border-style: inset;
+	background-repeat:none;
+	background-image:url(:/control_img/down_pressed.png);
+}
+QPushButton#pushButton_down:hover{
+	background-repeat:none;
+	background-image:url(:/control_img/down_pressed.png);
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QPushButton" name="pushButton_right">
+         <property name="minimumSize">
+          <size>
+           <width>51</width>
+           <height>51</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton#pushButton_right{
+	background-repeat:none;
+	background-image:url(:/control_img/right_normal.png);
+}
+QPushButton#pushButton_right:pressed{
+	border-style: inset;
+	background-repeat:none;
+	background-image:url(:/control_img/right_pressed.png);
+}
+QPushButton#pushButton_right:hover{
+	background-repeat:none;
+	background-image:url(:/control_img/right_pressed.png);
+}</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QSlider" name="control_scale">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="minimum">
+        <number>-150</number>
+       </property>
+       <property name="maximum">
+        <number>150</number>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_x">
+           <property name="minimumSize">
+            <size>
+             <width>67</width>
+             <height>17</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>speed_x :</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_speed_x">
+           <property name="minimumSize">
+            <size>
+             <width>70</width>
+             <height>17</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_y">
+           <property name="minimumSize">
+            <size>
+             <width>67</width>
+             <height>17</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>speed_y :</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_speed_y">
+           <property name="minimumSize">
+            <size>
+             <width>70</width>
+             <height>17</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_z">
+           <property name="minimumSize">
+            <size>
+             <width>67</width>
+             <height>17</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>speed_z :</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_speed_z">
+           <property name="minimumSize">
+            <size>
+             <width>70</width>
+             <height>17</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_scale">
+           <property name="minimumSize">
+            <size>
+             <width>67</width>
+             <height>17</height>
+            </size>
+           </property>
+           <property name="text">
+            <string> scale  :</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_scale_num">
+           <property name="minimumSize">
+            <size>
+             <width>70</width>
+             <height>17</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

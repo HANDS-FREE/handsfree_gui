@@ -51,8 +51,12 @@ void WidgetCommand::init_view()
     ui->listWidget->addItem(_default_listwidget_item);
     ui->listWidget->setItemWidget(this->_default_listwidget_item,this->_default_item_widget);
 
-    this->_default_item_treewidget = new TreeWidgetCommandDefault() ;
-    ui->stackedWidget->addWidget(this->_default_item_treewidget) ;
+//    this->_default_item_treewidget = new TreeWidgetCommandDefault() ;
+    this->_default_item_label = new QLabel(tr("please add some command , and make sure you have open your robot before using")) ;
+    this->_default_item_label->setFont(QFont("Georgia",12));
+    this->_default_item_label->adjustSize();
+    this->_default_item_label->setWordWrap(true);
+    ui->stackedWidget->addWidget(this->_default_item_label) ;
 
 }
 

@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>control_img/down_normal.png</file>
+        <file>control_img/down_pressed.png</file>
+        <file>control_img/left_normal.png</file>
+        <file>control_img/left_pressed.png</file>
+        <file>control_img/right_normal.png</file>
+        <file>control_img/right_pressed.png</file>
+        <file>control_img/up_normal.png</file>
+        <file>control_img/up_pressed.png</file>
+        <file>control_img/stop_normal.png</file>
+        <file>control_img/stop_pressed.png</file>
+        <file>control_img/add_normal.png</file>
+        <file>control_img/add_pressed.png</file>
+        <file>control_img/reduce_normal.png</file>
+        <file>control_img/reduce_pressed.png</file>
+        <file>visualization_widget/add.png</file>
+        <file>visualization_widget/setting.png</file>
+        <file>visualization_widget/start.png</file>
+        <file>visualization_widget/stop.png</file>
+        <file>visualization_widget/Toggle_Off.png</file>
+        <file>visualization_widget/Toggle_On.png</file>
+        <file>util/add_item.png</file>
+        <file>util/delete_item.png</file>
+        <file>util/edit_item.png</file>
+    </qresource>
+</RCC>

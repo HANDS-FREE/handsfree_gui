@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="handsfree_hw" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\SoftWare\;CMake Files\..\..\..\SoftWare\Qt\;CMake Files\..\..\..\SoftWare\Qt\5.5\;CMake Files\..\..\..\SoftWare\Qt\5.5\gcc_64\;CMake Files\..\..\..\SoftWare\Qt\5.5\gcc_64\lib\;CMake Files\..\..\..\SoftWare\Qt\5.5\gcc_64\lib\cmake\;CMake Files\..\..\..\SoftWare\Qt\5.5\gcc_64\lib\cmake\Qt5Core\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/liao/Documents/handsfree/handsfree_hw" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/liao/Documents/handsfree/handsfree_hw" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/liao/Documents/handsfree/handsfree_hw" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="handsfree_qt_sdk">
+         <Option output="/home/liao/Documents/handsfree/handsfree_hw/libhandsfree_qt_sdk.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/liao/Documents/handsfree/handsfree_hw" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/liao/Documents/handsfree/handsfree_hw" />
+            <Add directory="/home/liao/Documents/handsfree/handsfree_hw/include" />
+            <Add directory="/home/liao/Documents/handsfree/handsfree_hw/include/sdk/hf_link" />
+            <Add directory="/home/liao/Documents/handsfree/handsfree_hw/include/sdk/robot_abstract" />
+            <Add directory="/home/liao/SoftWare/Qt/5.5/gcc_64/include" />
+            <Add directory="/home/liao/SoftWare/Qt/5.5/gcc_64/include/QtCore" />
+            <Add directory="/home/liao/SoftWare/Qt/5.5/gcc_64/mkspecs/linux-g++" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 handsfree_qt_sdk" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="handsfree_qt_sdk/fast">
+         <Option output="/home/liao/Documents/handsfree/handsfree_hw/libhandsfree_qt_sdk.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/liao/Documents/handsfree/handsfree_hw" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/liao/Documents/handsfree/handsfree_hw" />
+            <Add directory="/home/liao/Documents/handsfree/handsfree_hw/include" />
+            <Add directory="/home/liao/Documents/handsfree/handsfree_hw/include/sdk/hf_link" />
+            <Add directory="/home/liao/Documents/handsfree/handsfree_hw/include/sdk/robot_abstract" />
+            <Add directory="/home/liao/SoftWare/Qt/5.5/gcc_64/include" />
+            <Add directory="/home/liao/SoftWare/Qt/5.5/gcc_64/include/QtCore" />
+            <Add directory="/home/liao/SoftWare/Qt/5.5/gcc_64/mkspecs/linux-g++" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 handsfree_qt_sdk/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="handsfree_qt_sdk_automoc">
+         <Option working_dir="/home/liao/Documents/handsfree/handsfree_hw" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 handsfree_qt_sdk_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/liao/Documents/handsfree/handsfree_hw/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/liao/Documents/handsfree/handsfree_hw/include/handsfree_hw/hf_hw.h">
+         <Option target="handsfree_qt_sdk"/>
+      </Unit>
+      <Unit filename="/home/liao/Documents/handsfree/handsfree_hw/include/sdk/hf_link/hf_link.cpp">
+         <Option target="handsfree_qt_sdk"/>
+      </Unit>
+      <Unit filename="/home/liao/Documents/handsfree/handsfree_hw/include/sdk/hf_link/hf_link.h">
+         <Option target="handsfree_qt_sdk"/>
+      </Unit>
+      <Unit filename="/home/liao/Documents/handsfree/handsfree_hw/include/sdk/hf_link/hf_link_state_machine.cpp">
+         <Option target="handsfree_qt_sdk"/>
+      </Unit>
+      <Unit filename="/home/liao/Documents/handsfree/handsfree_hw/include/sdk/hf_link/hf_link_state_machine.h">
+         <Option target="handsfree_qt_sdk"/>
+      </Unit>
+      <Unit filename="/home/liao/Documents/handsfree/handsfree_hw/src/hf_hw.cpp">
+         <Option target="handsfree_qt_sdk"/>
+      </Unit>
+      <Unit filename="/home/liao/Documents/handsfree/handsfree_hw/src/transport_serial.cpp">
+         <Option target="handsfree_qt_sdk"/>
+      </Unit>
+      <Unit filename="/home/liao/Documents/handsfree/handsfree_hw/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/liao/Documents/handsfree/handsfree_hw/../../../SoftWare/Qt/5.5/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\SoftWare\Qt\5.5\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/liao/Documents/handsfree/handsfree_hw/../../../SoftWare/Qt/5.5/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\SoftWare\Qt\5.5\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/liao/Documents/handsfree/handsfree_hw/../../../SoftWare/Qt/5.5/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\SoftWare\Qt\5.5\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/liao/Documents/handsfree/handsfree_hw/../../../SoftWare/Qt/5.5/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\SoftWare\Qt\5.5\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/liao/Documents/handsfree/handsfree_hw/../../../SoftWare/Qt/5.5/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\SoftWare\Qt\5.5\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

@@ -13,7 +13,6 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
 set(EXECUTABLE_OUTPUT_PATH  "${PROJECT_SOURCE_DIR}/bin")
 
-
 set(handsfree_gui_SRCS
     mainwindow/main.cpp
     mainwindow/mainwindow.cpp
@@ -105,8 +104,8 @@ set(handsfree_gui_RCC
 link_directories(.)
 INCLUDE_DIRECTORIES(
 	sdk/
-        sdk/handsfree_sdk/
-        ${QT_INCLUDE_DIR}
+    sdk/handsfree_sdk/
+    ${QT_INCLUDE_DIR}
 	${BOOST_INCLUDE_DIR}
 )
 

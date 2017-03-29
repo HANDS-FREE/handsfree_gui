@@ -75,8 +75,10 @@ void WidgetCommand::on_item_checkbox_clicked(bool checked, ButtonListWidgetItem 
          if(1==this->_vc_item_checked.size())this->_timer_update_commands->start(500);
     }
     else{
-        this->_vc_item_checked.removeOne(source_item) ;
-        if(this->_map_item_command[source_item]->getName()=="robot speed"){
+        //this->_vc_item_checked.removeOne(source_item) ;
+	int index_target = this->_vc_item_checked.indexOf(source_item) ; 
+	this->_vc_item_checked.removeAt(index_target) ;         
+	if(this->_map_item_command[source_item]->getName()=="robot speed"){
             //to brake robot
             RobotHardware::getRobotHardWare()->getRobotAbstract()->expect_robot_speed.x =0 ;
             RobotHardware::getRobotHardWare()->getRobotAbstract()->expect_robot_speed.y =0 ;
@@ -110,7 +112,9 @@ void WidgetCommand::on_item_widget_delete_clicked(ButtonListWidgetItem *delete_t
     disconnect(delete_target,SIGNAL(checkboxClicked(bool,ButtonListWidgetItem*)),
                this, SLOT(on_item_checkbox_clicked(bool,ButtonListWidgetItem*))) ;
 
-    this->_vc_item_widget.removeOne(delete_target) ;
+   //s this->_vc_item_widget.removeOne(delete_target) ;
+    int index_target = this->_vc_item_widget.indexOf(delete_target) ;
+    this->_vc_item_widget.removeAt(index_target) ; 
     this->_map_item_command.remove(delete_target) ;
     this->_map_item_listwidgetItem.remove(delete_target) ;
     this->_map_item_treewidget.remove(delete_target) ;

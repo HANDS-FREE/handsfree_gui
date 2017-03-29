@@ -35,18 +35,19 @@
 
 ##### 4.mobile control<br/>
 ![](https://github.com/HANDS-FREE/handsfree_gui/blob/master/README/v0.2_control.png)<br/>
-the available key value is:
-- key_up (move foward)
-- key_down (move back)
-- key_left (turn left)
-- key_right (turn right)
-- key_q (to increase the velocity by 20%)
-- key_z (to decrease the velocity by 20%)
+the available key value is:     
+- key_up (move foward)      
+- key_down (move back)      
+- key_left (turn left)      
+- key_right (turn right)        
+- key_q (to increase the velocity by 20%)       
+- key_z (to decrease the velocity by 20%)       
 <br/>
-*attention:*
-before using this function,you must click the mobile control panel to make sure it has got focus ;
-*the original velocity is 0.2m/s*
+**attention:**
+before using this function,you must click the mobile control panel to make sure it has got focus ;      
+**the original velocity is 0.2m/s**
 
 ##### 5.plot<br/>
 ![](https://github.com/HANDS-FREE/handsfree_gui/blob/master/README/v0.2_plot.png)<br/>
-*this funtion is on building , please wait......*
+
+**this funtion is on building , please wait......**

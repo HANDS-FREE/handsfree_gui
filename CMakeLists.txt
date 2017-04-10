@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(handsfree_gui_v2)
+add_complie_options(-std=c++11)
 find_package(Qt5Widgets)
 find_package(Qt5Core)
 find_package(Qt5Gui)
